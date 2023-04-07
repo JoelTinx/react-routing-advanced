@@ -1,0 +1,35 @@
+.verticalContainer {
+  display: grid;
+  grid-template-rows: 3rem auto;
+  min-height: 100vh;
+}
+
+.navBar {
+  display: flex;
+  width: 100%;
+
+  align-items: center;
+  padding: 0 1rem;
+
+  /* border: 1px solid rgba(0, 0, 0, 0.05); */
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+}
+
+.horizontalContainer {
+  display: grid;
+  grid-template-columns: 14rem 1fr;
+}
+
+.sideMenu {
+  padding: 1rem;
+  background: linear-gradient(180deg, #e1f6fd, #9fd1e9);
+}
+
+.sideMenu nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mainContent {
+  padding: 1rem;
+}
